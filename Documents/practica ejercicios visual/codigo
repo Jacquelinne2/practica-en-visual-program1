@@ -1,0 +1,26 @@
+Module ejercicio1
+
+    Sub Main()
+        Dim nombre, sexo As String
+        Dim edad As Integer
+
+        Console.WriteLine("ingrese su nombre: ")
+        nombre = Console.ReadLine
+
+        Console.WriteLine("ingrese su sexo (M/F): ")
+        sexo = Console.ReadLine
+
+        Console.WriteLine("ingrese su edad: ")
+        edad = Console.ReadLine
+
+        If (sexo = "M") Then
+            Console.WriteLine("Su nombre es: " & nombre & ", eres del sexo: Masculino" & ", tienes la edad de: " & edad)
+
+        Else
+            Console.WriteLine("Su nombre es:" & nombre & ", eres del sexo: Femenino" & ", tienes la edad de: " & edad)
+
+
+        End If
+
+    End Sub
+End Module
